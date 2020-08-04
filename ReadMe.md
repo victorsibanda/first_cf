@@ -10,3 +10,15 @@ Cloudformation templates use JSON or YAML
 - Support Arrays e.g `- sku`
 - Multi line strings `| `
 - Commenting `#`
+
+#### Conditions
+
+```YAML
+!Equals
+!If
+!Not
+!And
+!Or
+
+!GetAtt
+```
